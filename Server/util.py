@@ -37,6 +37,8 @@ def load_saved_artifacts():
     # Load columns.json
     with open(columns_path, "r") as f:
         __data_columns = json.load(f)['data_columns']
+        if __data_columns is None:
+         raise ValueError("Data columns could not be loaded. Ensure 'columns.json' exists and is formatted correctly.")
         __locations = __data_columns[3:]  # first 3 columns are sqft, bath, bhk
 
     # Load the model

@@ -13,6 +13,9 @@ app = Flask(__name__, template_folder='../Client/template', static_folder='../Cl
 def home():
     return render_template('app.html')
 
+util.load_saved_artifacts()
+
+
 
 @app.route('/get_location_names', methods=['GET'])
 def get_location_names():
