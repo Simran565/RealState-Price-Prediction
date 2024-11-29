@@ -5,6 +5,7 @@ sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')
 from Server import util
 
 
+
 app = Flask(__name__, template_folder='../Client/template', static_folder='../Client/static')
 
 
