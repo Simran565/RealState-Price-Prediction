@@ -59,4 +59,5 @@ function getBathValue() {
     });
   }
   
-  window.onload = onPageLoad;
+const BASE_URL = window.location.origin;
+fetch(`${BASE_URL}/get_location_names`);
