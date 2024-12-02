@@ -33,7 +33,7 @@
 }
 
 .switch-field input:checked + label {
-	background-color: #a5dc86;
+	background-color: #F9C0AB;
 	box-shadow: none;
 }
 
@@ -88,7 +88,7 @@ h2 {
 }
 
 .submit{
-  background: #a5dc86;
+  background: #F9C0AB;
   width: 76%;
   border: 0;
   margin: 25px 0 10px;
@@ -100,7 +100,7 @@ h2 {
 }
 
 .result{
-		background: #dcd686;
+		background: #FA812F;
 		width: 76%;
 		border: 0;
 		margin: 25px 0 10px;
@@ -108,10 +108,11 @@ h2 {
 		font-size: 15px;
 		height: 35px;
 		text-align: center;
+		color: #FEF3E2;
 }
 
 .img {
-  background: url('https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+  background: url('https://media.istockphoto.com/id/682432560/photo/stunning-luxury-home-exterior-at-sunset.jpg?s=612x612&w=0&k=20&c=NApF0vAI8wppLkNX73wWRxXUO2nyLHCB6peu38k2rtI=');
 	background-repeat: no-repeat;
   background-size: auto;
   background-size:100% 100%;
